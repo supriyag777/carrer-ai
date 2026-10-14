@@ -1,0 +1,9 @@
+{
+  "name": "careerai",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm --prefix frontend install --no-audit --no-fund && npm --prefix frontend run build",
+    "dev": "npm --prefix frontend run dev"
+  }
+}
